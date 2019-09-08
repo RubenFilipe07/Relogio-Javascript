@@ -1,2 +1,2 @@
-# Rel-gio-Javascript
+# Relogio-Javascript
 Relógio feito com HTML+CSS+JAVASCRIPT
