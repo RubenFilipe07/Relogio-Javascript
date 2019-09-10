@@ -1,5 +1,5 @@
 # Relogio-Javascript
-Relógio feito com HTML,CSS e JAVASCRIPT.
+Relógio feito com HTML, CSS e JAVASCRIPT.
 
 Cada código em um arquivo separado, caso for testar não esqueça de deixá-los na mesma pasta.
 
