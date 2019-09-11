@@ -1,5 +1,5 @@
 # Relogio-Javascript
-<h1>Relógio feito com HTML, CSS e JAVASCRIPT.<\h1>
+<h1>Relógio feito com HTML, CSS e JAVASCRIPT. </h1>
 
 Cada código em um arquivo separado, caso for testar não esqueça de deixá-los na mesma pasta.
 
