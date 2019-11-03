@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Relógio</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="Estilos/estilo.css">
     <script src="relogio.js"></script>
+    <script src="config.js"></script>
     <script src="mudacor.js"></script>
 </head>
-<body onload="iniciar()">
+<body id="fundo" onload="iniciar()">
     
   <div id="relogio">
     <h1 id="hora" class="seletor" onclick="alternarCor()">00:00:00</h1>
     <span id="data" class="seletor">00/00/00</span>
     </div>
-  
+    
+    <input type=image id="config" src="Imagens/engrenagem.png" onclick="popup()">
+    <input type=image id="refresh" src="Imagens/atualizar.png" onclick="definir()">
+   
 </body>
 </html>

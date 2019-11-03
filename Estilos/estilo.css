@@ -27,6 +27,31 @@ body{
  margin-left: 4px;
 }
 
+#config{
+  width: 20px;
+  position: absolute;
+  top: 90%;
+  right: 50%;
+  left: auto; 
+  /*Efeito de transição para voltar a posição inicial*/
+  transition: 400ms;
+  transform: rotate(0deg); 
+}
+
+#config:hover{
+  /*Efeito de transição para rotacionar*/
+  transition: 400ms;
+  transform: rotate(90deg); 
+}
+
+#refresh{
+  width: 20px;
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  left: auto; 
+}
+
 .seletor {
  -webkit-touch-callout: none;
  -webkit-user-select: none;
