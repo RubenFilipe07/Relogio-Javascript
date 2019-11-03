@@ -6,8 +6,8 @@
 </p>
 Cada código em um arquivo separado, caso for testar não esqueça de deixá-los na mesma pasta.
 
-<h3>Atualizações</h3> </br>
+<h3>Atualizações</h3> 
 Mudar a cor tocando na hora 16/09/2019 </br>
 Janela de personalização 03/11/2019 </br>
-
+</br>
 Visualização: https://rubenfilipe07.github.io/Relogio/clock.html
