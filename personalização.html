@@ -16,16 +16,16 @@ window.close();
 
 </head>
 <body> 
-<h2 style="color: red;">VERSÃO BETA</h2>  
+<h2 id="beta">VERSÃO BETA</h2>  
 
 <span>Cor de fundo</span>
-<input type="color" id="fundo">
+<input type="color" id="fundo" value="#00000">
 <span>Cor da moldura</span>
-<input type="color" id="moldura"> 
+<input type="color" id="moldura" value="#868686"> 
 <span>Cor da hora</span> 
-<input type="color" id="cor">
+<input type="color" id="cor" value="#00ff6a">
 
-<button onclick="armazenar()">OK</button>
+<button onclick="armazenar()" onmouseout="definir()">OK</button>
 <h3>Clique no ícone &orarr; para atualizar suas escolhas</h3>
 </body>
 </html>

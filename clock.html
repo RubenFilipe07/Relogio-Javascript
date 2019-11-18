@@ -8,7 +8,7 @@
     <script src="config.js"></script>
     <script src="mudacor.js"></script>
 </head>
-<body id="fundo" onload="iniciar()">
+<body id="fundo" onload="iniciar()" onfocus="definir()">
     
   <div id="relogio">
     <h1 id="hora" class="seletor" onclick="alternarCor()">00:00:00</h1>
@@ -16,7 +16,6 @@
     </div>
     
     <input type=image id="config" src="Imagens/engrenagem.png" onclick="popup()">
-    <input type=image id="refresh" src="Imagens/atualizar.png" onclick="definir()">
    
 </body>
 </html>
