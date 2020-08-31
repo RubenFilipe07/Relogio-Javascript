@@ -1,5 +1,5 @@
 //Autor: Rúben Filipe https://github.com/rubenfilipe07
-function iniciar(){
+function contar(){
     var d = new Date();
     let horas = d.getHours(); 
     let minutos = d.getMinutes(); 
@@ -39,6 +39,8 @@ function iniciar(){
  
      var saida2 = document.getElementById('data')
      saida2.innerHTML = `${dia}/${mes}/${ano}`
- 
-     var intervalo = window.setInterval(iniciar, 1000);
     }
+
+    function iniciar(){
+      window.setInterval(contar, 1000);
+  }
