@@ -42,5 +42,6 @@ function contar(){
     }
 
     function iniciar(){
+      definir();
       window.setInterval(contar, 1000);
   }

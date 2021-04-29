@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="config.js"></script>
-    <link rel="stylesheet" href="Estilos/estilo2.css">
+    <script src="configuracao.js"></script>
+    <link rel="stylesheet" href="Estilos/personalizacao.css">
     <title>Personalização</title>
 
 </head>
-<body> 
-<h2 id="beta">VERSÃO BETA</h2>  
+<body onload="atualizaValorInput()">  
 
 <span>Cor de fundo</span>
-<input type="color" id="fundo" value="#00000">
+<input type="color" id="corFundo" value="#00000">
 <span>Cor da moldura</span>
-<input type="color" id="moldura" value="#868686"> 
+<input type="color" id="corMoldura" value="#868686"> 
 <span>Cor da hora</span> 
-<input type="color" id="cor" value="#00ff6a">
+<input type="color" id="corHora" value="#00ff6a">
 
-<button onclick="armazenar()" onmouseout="definir()">OK</button>
-<h3>Clique no ícone &orarr; para atualizar suas escolhas</h3>
+<button onclick="armazenar();" class="btnDefinir">Definir</button> <br>
+<button onclick="resetar()" class="btnResetar">Resetar</button>
 </body>
 </html>
