@@ -1,7 +1,7 @@
 # Relogio-Javascript
 <h4>Relógio feito com HTML, CSS e JAVASCRIPT. </h4>
 <p align="center">
-  <a href="https://rubenfilipe07.github.io/Relogio-Javascript/">  <img src="https://rubenfilipe07.github.io/imagens/relogio.gif"  width="300">
+  <a href="https://rubenfilipe07.github.io/Relogio-Javascript/">  <img src="https://user-images.githubusercontent.com/53026536/148704772-0af23ad5-8c54-4d93-8793-4a08c7e144c6.gif"  width="300">
   </a>
 </p>
 
